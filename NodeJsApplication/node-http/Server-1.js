@@ -7,7 +7,7 @@ var http = require('http');
 var hostname ='localhost';
 var port =3000;
 var server = http.createServer(function(req,res){
-    console.log(req.headers + "madhu krishna");
+    console.log(req.headers);
     res.writeHead(200,{'content-type':'text/html'});
     res.end('<h1>hello port</h1>');
 });
